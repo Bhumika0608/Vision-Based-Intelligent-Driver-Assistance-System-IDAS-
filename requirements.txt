@@ -1,0 +1,24 @@
+# Vision-Based Safety Intelligence System
+# Requirements for CPU-based inference 
+
+# Core
+opencv-python>=4.8.0
+numpy>=1.24.0
+onnxruntime>=1.16.0
+
+# Intel Optimization (for your Iris Xe GPU)
+openvino>=2023.0
+
+# Object Detection
+ultralytics>=8.0.0
+
+# Driver Monitoring
+mediapipe>=0.10.0
+
+# Tracking & Math
+scipy>=1.10.0
+lap>=0.4.0
+filterpy>=1.4.5
+
+# Utilities
+Pillow>=9.0.0
